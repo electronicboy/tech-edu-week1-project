@@ -81,16 +81,17 @@ nav a:hover {
 
 .feature-modal > a {
   border: 1px white solid;
-  padding: 10px;
+  padding: 22px 20px;
   background-color: transparent;
   color: white;
   font-size: 0.9rem;
   font-weight: 600;
+  margin-right: auto;
+  min-width: 130px;
 }
 
 .feature-modal a:hover {
   border: 1px white solid;
-  padding: 10px;
   background-color: white;
   color: black;
 }
@@ -115,6 +116,10 @@ nav a:hover {
 
 .space2 {
   background-image: url("img/earth-soil-creep-moon-lunar-surface-87009.jpeg");
+}
+
+.space3 {
+    background-image: url("img/pexels-brunoscramgnon-596132.jpg");
 }
 
 /*************
