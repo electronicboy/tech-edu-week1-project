@@ -9,4 +9,12 @@ window.onscroll = function () {
   } else {
     topButton.style.display = "none";
   }
+
+  // Google commenced a war with auto playing media and so, this will
+  // not play by default. There are seemingly some hacks around this, however
+  // I failed to get them to work, so, we'll just do this. This will not work until
+  // a client has clicked the page.
+  /** @type {HTMLAudioElement} */
+  let audioPlayer = document.getElementById("player");
+  audioPlayer.play();
 };
